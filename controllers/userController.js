@@ -20,9 +20,6 @@ export const postJoin = (req, res) => {
 };
 
 
-
-
-
 export const getLogin = (req, res) => {
     res.render("login", {pageTitle: "LOGIN"});
 };
